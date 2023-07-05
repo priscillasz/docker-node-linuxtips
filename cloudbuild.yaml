@@ -2,7 +2,7 @@ steps:
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 'gcr.io/gin-helm-391902/cicd-teste', '.']
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/ugin-helm-391902/cicd-teste']
+    args: ['push', 'gcr.io/gin-helm-391902/cicd-teste']
   - name: 'gcr.io/cloud-builders/gcloud'
     args:
       - 'run'
